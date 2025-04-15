@@ -47,7 +47,7 @@ for exp in selected_numbers[1:]:
 # Third table: Bamboo Growth Pattern
 print("\nBamboo-like Growth Pattern:")
 print("-" * 80)
-bamboo_exponents = [1, 10, 30, 50, 300, 365, 700]
+bamboo_exponents = [1, 10, 20, 30, 40, 80, 160, 320, 640]
 
 prev_exp = bamboo_exponents[0]
 prev_result = base ** prev_exp
