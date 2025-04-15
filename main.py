@@ -47,23 +47,16 @@ for exp in selected_numbers[1:]:
 # Third table: Bamboo Growth Pattern
 print("\nBamboo-like Growth Pattern:")
 print("-" * 80)
-# Using exponential growth with dormancy period
-bamboo_years = [1, 2, 3, 4, 4.5, 5]
-initial_height = 0.1  # Initial underground growth in meters
+bamboo_exponents = [1, 10, 30, 50, 300, 365, 700]
 
-prev_year = bamboo_years[0]
-prev_height = initial_height
-print(f"Year {prev_year:3.1f} = {prev_height:8.2f}m")
+prev_exp = bamboo_exponents[0]
+prev_result = base ** prev_exp
+print(f"1.01^{prev_exp:3d} = {prev_result:8.2f}")
 
-for year in bamboo_years[1:]:
-    # Dramatic growth in final year
-    if year >= 4:
-        height = initial_height * (1.5 ** (year * 52))  # Weekly growth explosion
-    else:
-        height = initial_height * (1.1 ** year)  # Slow underground growth
-    
-    year_increase = ((year - prev_year) / prev_year) * 100
-    height_increase = ((height - prev_height) / prev_height) * 100
-    print(f"Year {year:3.1f} = {height:8.2f}m | Time increase: {year_increase:7.1f}% | Height increase: {height_increase:8.1f}%")
-    prev_year = year
-    prev_height = height
+for exp in bamboo_exponents[1:]:
+    result = base ** exp
+    exp_increase = ((exp - prev_exp) / prev_exp) * 100
+    value_increase = ((result - prev_result) / prev_result) * 100
+    print(f"1.01^{exp:3d} = {result:8.2f} | Exponent increase: {exp_increase:7.1f}% | Value increase: {value_increase:8.1f}%")
+    prev_exp = exp
+    prev_result = result
