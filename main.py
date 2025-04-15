@@ -24,7 +24,11 @@ for exp in exponents[1:]:
     result = base ** exp
     exp_increase = ((exp - prev_exp) / prev_exp) * 100
     value_increase = ((result - prev_result) / prev_result) * 100
-    print(f"1.01^{exp:3d} = {result:8.2f} | Exponent increase: {exp_increase:7.1f}% | Value increase: {value_increase:8.1f}%")
+    print(
+        f"1.01^{exp:3d} = {result:8.2f} | "
+        f"Exponent increase: {exp_increase:7.1f}% | "
+        f"Value increase: {value_increase:8.1f}%"
+    )
     prev_exp = exp
     prev_result = result
 
@@ -40,7 +44,11 @@ for exp in selected_numbers[1:]:
     fib = fibonacci(exp)
     exp_increase = ((exp - prev_exp) / prev_exp) * 100
     value_increase = ((fib - prev_fib) / prev_fib) * 100
-    print(f"Fib({exp:3d}) = {fib:8d} | Exponent increase: {exp_increase:7.1f}% | Value increase: {value_increase:8.1f}%")
+    print(
+        f"Fib({exp:3d}) = {fib:8d} | "
+        f"Exponent increase: {exp_increase:7.1f}% | "
+        f"Value increase: {value_increase:8.1f}%"
+    )
     prev_exp = exp
     prev_fib = fib
 
@@ -57,6 +65,10 @@ for exp in bamboo_exponents[1:]:
     result = base ** exp
     exp_increase = ((exp - prev_exp) / prev_exp) * 100
     value_increase = ((result - prev_result) / prev_result) * 100
-    print(f"1.01^{exp:3d} = {result:8.2f} | Exponent increase: {exp_increase:7.1f}% | Value increase: {value_increase:8.1f}%")
+    print(
+        f"1.01^{exp:3d} = {result:8.2f} | "
+        f"Exponent increase: {exp_increase:7.1f}% | "
+        f"Value increase: {value_increase:8.1f}%"
+    )
     prev_exp = exp
     prev_result = result
