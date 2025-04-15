@@ -78,4 +78,4 @@ exponents = [1, 10, 30, 50, 300, 365, 700]
 This will demonstrate the "hidden growth" period followed by dramatic visible results, just like the bamboo tree's growth pattern.
 
 For a visual understanding of this remarkable growth pattern, watch this short video:
-[Chinese Bamboo Tree - The Power of Patience and Persistence](https://www.youtube.com/watch?v=PLLxrcKhY8g)
+[Chinese Bamboo Tree - The Power of Patience and Persistence](https://www.youtube.com/watch?v=KN9d6QQnIIM)
