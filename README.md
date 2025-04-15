@@ -19,6 +19,7 @@ This program demonstrates and compares two fascinating mathematical growth patte
 
 ### Power Series (1.01^n)
 The power series represents consistent, compound growth. Starting with a small base (1.01):
+
 - After 60 days: 1.82x growth
 - After 180 days: 6.00x growth
 - After 365 days: 37.78x growth
@@ -28,6 +29,7 @@ This pattern shows that small, consistent actions (just 1% improvement) can lead
 
 ### Fibonacci Sequence
 The Fibonacci sequence shows a different kind of growth:
+
 - Initially slower (first few numbers: 1, 1, 2, 3, 5, 8...)
 - Accelerates dramatically (by position 24: 46,368)
 - Shows consistent value increases of about 161.8% at regular intervals
@@ -36,12 +38,14 @@ The Fibonacci sequence shows a different kind of growth:
 
 ### The 1% Rule (Power Series)
 The power series (1.01^n) perfectly illustrates the "1% better every day" principle. Just like in the program:
+
 - A mere 1% daily improvement leads to a 37.78x improvement in one year
 - This mirrors how small, consistent habits compound over time
 - Even on days when progress seems minimal, the compound effect is working
 
 ### The Fibonacci Pattern of Skill Development
 The Fibonacci sequence reflects how skills and habits often develop:
+
 - Initial progress may seem slow (like the early Fibonacci numbers)
 - As fundamentals stack up, growth accelerates dramatically
 - Each new achievement builds on previous ones, creating exponential progress
@@ -66,11 +70,12 @@ The power series (1.01^n) closely mirrors the fascinating growth pattern of the 
 
 ### Generating Similar Growth Patterns
 To explore bamboo-like growth patterns in our program:
+
 1. Modify the exponents list to include more early-stage values (1-50)
 2. Add a dramatic jump point (around day 300-365)
 3. Include final explosive growth points (700+)
 
-Example sequence to add:
+Example sequence:
 ```python
 exponents = [1, 10, 30, 50, 300, 365, 700]
 ```
@@ -86,8 +91,10 @@ This project's evolution was inspired by the power of mathematical patterns in p
 
 ### Starting Point
 ![Initial Concept](powerOfCompounding.png)
+
 We began with a simple visualization of compound growth, demonstrating how small, consistent improvements lead to significant results over time.
 
 ### Final Implementation
 ![Final Results](outcome.png)
+
 The project evolved to include multiple growth patterns - Power Series, Fibonacci Sequence, and the Bamboo Tree growth model - providing a comprehensive view of different growth trajectories and their implications for personal development.
