@@ -31,7 +31,7 @@ for exp in exponents[1:]:
 # Second table: Selected Fibonacci numbers
 print("\nSelected Fibonacci Numbers:")
 print("-" * 80)
-selected_numbers = [1, 6, 10, 12, 16, 18, 20, 24]
+selected_numbers = [1, 3, 6, 10, 12, 16, 18, 20, 24]
 prev_exp = selected_numbers[0]
 prev_fib = fibonacci(prev_exp)
 print(f"Fib({prev_exp:3d}) = {prev_fib:8d}")
